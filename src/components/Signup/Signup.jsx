@@ -77,7 +77,7 @@ const Signup = () => {
 
       <div className={Styles.inputRow}>
         <label className={Styles.inputLabel}>Password:</label>
-        <input type="password" className="input" required />
+        <input type="password" placeholder="*******" className="input" required />
       </div>
 
       <div className={`${Styles.inputRow}`}>
