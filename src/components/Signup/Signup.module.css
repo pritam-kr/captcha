@@ -1,0 +1,64 @@
+.form {
+  background-color: #fff;
+  padding: 15px;
+  width: 400px;
+  box-shadow: var(--box-shadow);
+  border-radius: 10px;
+}
+.formHeader {
+  margin: 10px 0 30px 0;
+  text-align: center;
+}
+.inputRow {
+  margin-bottom: 10px;
+}
+
+.inputLabel {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.captchaRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.captcha {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  align-items: center;
+  margin: 20px 0;
+}
+.captcha img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+.click {
+  color: var(--primary-color);
+  cursor: pointer;
+  text-decoration: underline;
+}
+.captchView {
+  border: 1px solid var(--border-color);
+  border-radius: 15px;
+  width: 100%;
+  padding: 11px 15px;
+  outline: none;
+
+  color: transparent;
+  text-shadow: 0 0 2px #000000ef;
+}
+
+.error {
+  color: var(--bg-toast);
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+.success {
+  color: var(--btn-success);
+  margin-top: -10px;
+  margin-bottom: 10px;
+}

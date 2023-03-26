@@ -1,13 +1,92 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body,
+h1,
+h1,
+h3,
+h4,
+h5,
+h6,
+li,
+button,
+p {
+  font-family: "Roboto", sans-serif;
 }
+
+:root {
+  --sidebar-background: #e7e7e7;
+  --primary-color: #0e72c9;
+  --border-color: #0000001f;
+  --link-color: #0000009f;
+  --primary-hover: #0662b3;
+  --paragraph-color: #353535f3;
+  --body-background: #f7f7f7;
+  --footer-background: #00000015;
+  --headings-color: #282828;
+  --box-shadow: 0px 0px 10px 4px #00000015;
+  --smooth-shadow: 0.9px 2.8px 4.2px #00000067, 2.2px 6.7px 5.3px #0000005d,
+    4.1px 12.5px 10px #00000009, 7.4px 22.3px 17.9px #0000000b,
+    13.8px 41.8px 33.4px #0000000d, 33px 100px 80px #00000012;
+  --badge-border: #fff;
+  --status-online: #0e800e;
+  --status-offline: #cc2e2e;
+  --status-away: #cece2b;
+  --status-disturb: #757575;
+  --btn-secondary: #22222254;
+  --secondary-hover: #0f0f0f7a;
+  --btn-success: #0e800e;
+  --btn-success-hover: #026d02;
+  --text-color: #f7f7f7;
+  --btn-danger: #e23e3e;
+  --btn-danger-hover: #c50505;
+  --btn-warning: #b8b826;
+  --btn-warning-hover: #8a8a18;
+  --btn-dark: #282828;
+  --btn-dark-hover: #2e2b2b;
+  --card-display-background: #ededed;
+  --paragraph-font: "Open Sans", sans-serif;
+  --grey-text: #808080f1;
+  --overlay-background: #a1a0a0e0;
+  --input-border: #00000050;
+  --secondary-color: #111111b4;
+  --secondary-input-outline-color: #111111b4;
+  --modal-background: #1d1e22;
+  --rating-color: #f7a206;
+  --bg-toast: #b60f0f;
+  --sidebar-list-hover: #00000018;
+}
+
+body {
+  background-color: var(--body-background);
+}
+input {
+  border: 1px solid var(--border-color);
+  border-radius: 15px;
+  width: 100%;
+  padding: 13px 15px;
+  outline: none;
+}
+
+.btn{
+  width: 100%;
+  padding: 13px 15px;
+  background-color: var(--primary-color);
+  transition: .3s ease-in;
+  border: 1px solid var(--border-color);
+  font-family: "Roboto", sans-serif;
+  color: var(--text-color);
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+ ::placeholder{
+  font-size: 16px;
+ }
+
+ 
